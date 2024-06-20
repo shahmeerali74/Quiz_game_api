@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.8-slim
+FROM python:3.12-slim
 
 # Set environment variables for Python buffering and ensure Python output is sent straight to terminal without buffering it first
 ENV PYTHONUNBUFFERED 1
